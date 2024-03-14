@@ -1,0 +1,23 @@
+.navWrapper {
+  width: 100%;
+  position: fixed;
+  z-index: 99999999999999999999999999999999999999999999999;
+  backdrop-filter: blur(10px);
+  background-color: rgba(29, 30, 30, 0.808);
+}
+
+.navInnerWrapper {
+  height: 80px;
+  display: flex;
+  padding-left: 86px;
+  padding-right: 86px;
+}
+
+.imageWrapper {
+  display: flex;
+  flex: 1;
+}
+.navGroupWrapper {
+  display: flex;
+  flex: 1;
+}

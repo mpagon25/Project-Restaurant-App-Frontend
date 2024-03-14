@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
 import ReservationPage from "./pages/ReservationPage/ReservationPage";
-import NavBar from "./components/Navbar/NavBar";
+
 import AdminPage from "./pages/AdminPage/AdminPage";
 import StaffPage from "./pages/StaffRegistrationPage/StaffPage";
 import StaffHomePage from "./pages/StaffHomePage/StaffHomePage";
@@ -12,6 +12,7 @@ import VegetarianPage from "./pages/VegetarianPage/VegetarianPage";
 import FingerFoodPage from "./pages/FingerFoodPage/FingerFoodPage";
 import CoctailsDesertPage from "./pages/CoctailsDesertPage/CoctailsDesertPage";
 import SingleFoodItem from "./components/SingleFoodItem/SingleFoodItem";
+import NavBar from "./components/NavBar";
 
 function App() {
   // eslint-disable-next-line no-unused-vars
