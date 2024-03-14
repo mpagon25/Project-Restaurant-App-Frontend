@@ -3,6 +3,7 @@
 
 .mainWrapper {
   background-color: rgb(20, 20, 20);
+  padding-top: 80px;
   display: flex;
 }
 .imgWrapperWrapper {

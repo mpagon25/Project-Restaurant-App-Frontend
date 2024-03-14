@@ -78,6 +78,7 @@ const ReservationPage = () => {
               });
             }}
           />
+          <div style={{ height: "40px" }} />
           <FormInput
             inputType="date"
             inputText="Date"
@@ -89,6 +90,8 @@ const ReservationPage = () => {
               });
             }}
           />
+          <div style={{ height: "40px" }} />
+
           <FormInput
             inputType="number"
             inputText="total clients"
@@ -103,7 +106,21 @@ const ReservationPage = () => {
               });
             }}
           />
-          <button type="submit">submit Reservation</button>
+
+          <button
+            style={{
+              height: "60px",
+              width: "100%",
+              marginTop: "40px",
+              fontSize: "30px",
+              color: "white",
+              border: "none",
+              backgroundColor: "#ffffff52",
+            }}
+            type="submit"
+          >
+            SUBMIT
+          </button>
         </form>
       </div>
     </div>

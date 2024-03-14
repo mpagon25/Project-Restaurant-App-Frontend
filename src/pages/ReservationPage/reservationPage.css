@@ -3,7 +3,7 @@
   min-height: 15dvh;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  padding-top: 140px;
 }
 .headerBottomText {
   padding-left: 12%;
@@ -11,19 +11,20 @@
 .headerContainer p {
   font-size: 5rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
 .reservationContainer {
   display: flex;
   justify-content: center;
-  min-height: 40dvh;
   background-color: #121212;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .formReservations {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 5%;
   padding: 5px;

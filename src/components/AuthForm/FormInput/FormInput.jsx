@@ -20,6 +20,7 @@ const FormInput = ({
   return (
     <>
       <label
+        style={{ fontSize: "36px" }}
         className={labelClassName && labelClassName}
         onClick={() => {
           refFunc(refName);
@@ -28,17 +29,30 @@ const FormInput = ({
         {inputText}
       </label>
       <input
-        checked={checked && checked}
-        required={required && required}
-        placeholder={placeHolder && placeHolder}
-        ref={refName && refName}
-        className={inputClassName && inputClassName}
-        type={inputType && inputType}
-        name={inputName && inputName}
-        value={inputValue && inputValue}
-        onChange={onChange && onChange}
-        min={minValue && minValue}
-        max={maxValue && maxValue}
+        style={{
+          height: "50px",
+          fontSize: "30px",
+          textAlign: "left",
+          alignItems: "flex-start",
+          border: "none",
+          backgroundColor: "#ffffff11",
+          color: "white",
+          borderBottomWidth: "1px",
+          borderBottomColor: "white",
+          borderBottomStyle: "solid",
+          width: "100%",
+        }}
+        checked={checked}
+        required={required}
+        placeholder={placeHolder}
+        ref={refName}
+        className={inputClassName}
+        type={inputType}
+        name={inputName}
+        value={inputValue}
+        onChange={onChange}
+        min={minValue}
+        max={maxValue}
       />
     </>
   );
