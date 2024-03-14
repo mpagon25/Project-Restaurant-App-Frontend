@@ -124,6 +124,7 @@ table {
 }
 html {
   background-color: rgb(228, 220, 228);
+  font-family: "Poppins", sans-serif;
 }
 #root {
   background-color: rgb(228, 220, 228);

@@ -12,8 +12,7 @@ import VegetarianPage from "./pages/VegetarianPage/VegetarianPage";
 import FingerFoodPage from "./pages/FingerFoodPage/FingerFoodPage";
 import CoctailsDesertPage from "./pages/CoctailsDesertPage/CoctailsDesertPage";
 import SingleFoodItem from "./components/SingleFoodItem/SingleFoodItem";
-import NavBar from "./components/NavBar";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   // eslint-disable-next-line no-unused-vars
   // const [userCookie, setUserCookie] = useCookies("access_token");
@@ -22,7 +21,7 @@ function App() {
 
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
       {window.location.pathname === "/admin/control" ? (
         ""
       ) : window.location.pathname === "/staff/registration" ? (

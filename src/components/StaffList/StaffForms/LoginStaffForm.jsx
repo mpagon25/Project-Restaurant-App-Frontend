@@ -4,6 +4,7 @@ import { useCookies } from "react-cookie";
 import FormInput from "../../AuthForm/FormInput/FormInput";
 import { API_URL } from "../../../../ApiUrl";
 import { useNavigate } from "react-router-dom";
+import Button from "react-bootstrap/Button";
 
 const LoginStaffForm = () => {
   // eslint-disable-next-line no-unused-vars
@@ -64,6 +65,7 @@ const LoginStaffForm = () => {
             });
           }}
         />
+        <Button variant="primary">Login</Button>
         <button type="submit">login</button>
       </form>
     </div>
